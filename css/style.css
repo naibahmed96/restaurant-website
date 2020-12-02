@@ -1,0 +1,102 @@
+/* Font Awesome Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto',sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+/* Utility Classes */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0rem 2rem;
+}
+.current {
+  color: #00A1E5;
+  background-color: #fff;
+}
+.bg-primary { background: #40A0A9; }
+.bg-dark { background-color: #275967; }
+.bg-light {
+  background-color: #fff;
+  color: #00A1E5;
+}
+.p-2 { padding:1rem 3rem; }
+
+
+/* Header-section */
+header {
+  background: url('../img/hero-food-image.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+}
+header .top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  margin-bottom: 1rem;
+}
+header .top-nav span {
+  font-weight: bold;
+  color: #275967;
+}
+
+header nav .lists {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.lists li {
+  flex: 1;
+  text-align: center;
+}
+
+.lists li a {
+  display: block ;
+  padding: 20px;
+}
+.lists li a:hover {
+  background-color: #2c88bd;
+  color: #fff;
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6rem 0rem;
+}
+.hero-content h1 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.hero-content a {
+  /* margin-bottom: 2rem; */
+  font-size: 1.5rem;
+}
+.hero-content a:hover {
+  background: #1275ad;
+  color: #fff;
+}
+.hero-content a:last-child {
+  margin-top: 2rem;
+}

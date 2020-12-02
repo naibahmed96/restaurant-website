@@ -1,0 +1,28 @@
+
+header .top-nav {
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+header .top-nav span {
+  line-height: 1.6;
+}
+
+header nav .lists {
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.hero-content a {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 500px) {
+  .p-2 {padding: 1rem 1.5rem;}
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}
