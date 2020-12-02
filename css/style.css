@@ -41,7 +41,7 @@ ul {
 
 /* Header-section */
 header {
-  background: url(../img/hero-food-image.jpg) no-repeat center center/cover;
+  background: url('../img/hero-food-image.jpg') no-repeat center center/cover;
   min-height: 100vh;
 }
 header .top-nav {
